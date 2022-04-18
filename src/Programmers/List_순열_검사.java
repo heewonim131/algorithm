@@ -1,6 +1,6 @@
 package Programmers;
 
-public class 순열_검사 {
+public class List_순열_검사 {
     public static void main(String[] args) {
         int[] arr = {4, 1, 3, 2};
         System.out.println(solution(arr));

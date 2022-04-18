@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class 최댓값_인덱스_구하기 {
+public class List_최댓값_인덱스_구하기 {
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 4, 5, 2, 1};
         System.out.println(Arrays.toString(solution(arr)));

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class 자연수_뒤집어_배열로_만들기 {
+public class List_자연수_뒤집어_배열로_만들기 {
     public static void main(String[] args) {
         long n = 12345;
         System.out.println(Arrays.toString(solution(n)));

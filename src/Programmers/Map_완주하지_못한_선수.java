@@ -3,7 +3,7 @@ package Programmers;
 import java.util.HashMap;
 import java.util.Map;
 
-public class 완주하지_못한_선수 {
+public class Map_완주하지_못한_선수 {
     public static void main(String[] args) {
         String[] participant = {"mislav", "stanko", "mislav", "ana"};
         String[] completion = {"stanko", "ana", "mislav"};

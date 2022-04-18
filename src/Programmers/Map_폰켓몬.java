@@ -3,7 +3,7 @@ package Programmers;
 import java.util.HashMap;
 import java.util.Map;
 
-public class 폰켓몬 {
+public class Map_폰켓몬 {
     public static void main(String[] args) {
         int[] nums = {3, 1, 2, 3};
         System.out.println(solution(nums));

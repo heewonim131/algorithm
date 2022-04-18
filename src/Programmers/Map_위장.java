@@ -3,7 +3,7 @@ package Programmers;
 import java.util.HashMap;
 import java.util.Map;
 
-public class 위장 {
+public class Map_위장 {
     public static void main(String[] args) {
         String[][] clothes = {{"yellowhat", "headgear"}, {"bluesunglasses", "eyewear"}, {"green_turban", "headgear"}};
         System.out.println(solution(clothes));
