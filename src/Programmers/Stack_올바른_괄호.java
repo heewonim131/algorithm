@@ -10,23 +10,16 @@ public class Stack_올바른_괄호 {
 
     public static boolean solution(String s) {
         Stack<Character> stack = new Stack<>();
-        boolean answer = true;
 
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i)=='(') {
-                stack.push(s.charAt(i));
-            } else if (s.charAt(i)==')') {
-                if (stack.isEmpty()) {
-                    answer = false;
-                    break;
-                }
-                else if (stack.peek()=='(') stack.pop();
+        for (char c : s.toCharArray()) {
+            if (c == '(') stack.push(c);
+            else {
+                if (stack.isEmpty()) return false;
+                stack.pop();
             }
         }
 
-        if (!stack.isEmpty()) answer = false;
-
-        return answer;
+        return stack.isEmpty();
     }
 
 }
